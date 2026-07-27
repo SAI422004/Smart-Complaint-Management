@@ -1,0 +1,29 @@
+# FastAPI backend
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# Database
+sqlalchemy==2.0.35
+mysql-connector-python==9.0.0
+pymysql==1.1.1
+
+# AI / LangGraph
+langgraph==0.2.0
+groq==0.9.0
+tenacity>=8.1.0,<9.0.0
+
+# Validation
+pydantic==2.9.0
+pydantic-settings==2.5.0
+
+# File parsing
+PyMuPDF==1.24.9
+python-docx==1.1.2
+fpdf2==2.8.1
+
+# HTTP
+httpx==0.27.2
+
+# Utilities
+python-dotenv==1.0.1
